@@ -1,0 +1,24 @@
+//By: Riley McKenzie
+//Date: 2/3/22
+//CS1050 Monday and Wednesday
+//Programming exercize 3.22
+
+public class two_two {
+
+	public static void main(String[] args) {
+		int a = 0;
+		int y = 1;
+		
+		
+		while(a<1) { //This loop prints the first line and does the next loop once but the oterh loop will go 5 times 
+			System.out.println("N     10*N     100*N     1000*N");
+			++a;
+			while(y<6) { //This loop prints off the rest of the table 
+				System.out.printf("%d     %d       %d       %d\n", y,y*10,y*100,y*1000);
+				++y;
+			}//end of second while
+		}//end of first while
+
+	}//end of void main
+
+}//end of class
